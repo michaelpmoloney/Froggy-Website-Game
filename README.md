@@ -13,11 +13,11 @@ To create an Atari style game in which a lonely frog is trying to cross a bridge
 A frog on a bridge that, when clicked on, hops across to the other side. The game is inspired by oldschool atari pixel graphics. The art assets were created in Pixie Engine. No Javascript was allowed in this project. 
 
 #### Functionality:
-*Sprite animation
-*Frog moves from mouse interatction
-*Frog winds up jump when mouse is hovered over frog
-*Frog can be reset by clicking on the title screen
-*Frog's movement is achieved through positioned links to other pages
+* Sprite animation
+* Frog moves from mouse interatction
+* Frog winds up jump when mouse is hovered over frog
+* Frog can be reset by clicking on the title screen
+* Frog's movement is achieved through positioned links to other pages
 
 
 Screenshot of website with Frog's trajectory.(on the actual website the frog is only shown on one square at a time. Also, there is a finish line flag when the frog reaches the end of the bridge)
