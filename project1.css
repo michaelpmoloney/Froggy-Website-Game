@@ -1,0 +1,208 @@
+/*Website background color black(or green).
+Add scroll bar if website is to big for browser.*/
+body {
+
+	background-color: black;/*original color #4A875B*/
+	overflow: auto;
+	margin: auto;
+}
+/*Stylize website title container.*/
+div#title{
+	/*background-color: #D4FADF;*/
+	width: 400px;
+	margin: auto;
+	height: 40px;
+	top: 0px;
+	padding: 15px 0px 35px;
+	/*padding-bottom: 40px;
+	border-radius: 0px 0px 25px 25px;*/
+}
+/*Stylize project number*/
+h1 {
+	text-align: center;
+	font-size: 1.6em;
+	color: #364A35;
+	font-weight: normal;
+	position: fixed;
+	top: 10px;
+	padding-left: 20px;
+}
+/*Stylize game title*/
+span {
+	font-weight: bold;
+}
+/*center align all divs inside entire game container*/
+div#game{align-content: center;}
+
+/*Top water image and attributes*/
+div#topwater{
+	height: 150px;
+	background-image: url("./images/TopWater.png");
+	width: 1000px;
+	background-size: cover;
+	margin:auto;
+}
+div#topwater1 img{
+	position: relative;
+	top: 25px;
+}
+/*Lily Pad attributes*/
+img#WaterItem1{
+	left: 30px;
+	/* we can move the random item here across the grid here using left,right and other tools*/
+}
+/*This applies the bridge images*/
+div#bridge {
+	height: 150px;
+	width: 1080px;
+	background-image: url("./images/Bridge.png");
+	background-repeat: no-repeat;
+	margin:auto;
+}
+
+#bridge img{
+	margin-top: 25px;
+	position: absolute;
+}
+/*Frog image attributes*/
+img.frog{
+	background-color: white;
+	display: inline-block;
+}
+/* frog will highlight when you hover over it*/
+img.frog:hover{
+	opacity: .5;
+}
+/*Position of frog in each bridge segment*/
+div#bridge_block {
+	position: fixed;
+}
+div#bridge_block1{
+	position:absolute;
+	margin-left: 100px;
+	margin-top:25px;
+	height: 100px;
+	width: 100px;
+	background:url("./images/FrogSprite.png") top left no-repeat;
+}
+/*sprite animation when mouse hovers over frog*/
+#bridge_block1:hover{background-position: 0px -100px;}
+
+div#bridge_block2{
+	position: absolute;
+	margin-left: 250px;
+	margin-top:25px;
+	height: 100px;
+	width: 100px;
+	background:url("./images/FrogSprite.png") top left no-repeat;
+}
+/*sprite animation when mouse hovers over frog*/
+#bridge_block2:hover{background-position: 0px -100px;}
+
+div#bridge_block3{
+	position: absolute;
+	margin-left: 400px;
+	margin-top:25px;
+	height: 100px;
+	width: 100px;
+	background:url("./images/FrogSprite.png") top left no-repeat;
+}
+/*sprite animation when mouse hovers over frog*/
+#bridge_block3:hover{background-position: 0px -100px;}
+
+div#bridge_block4{
+	position: absolute;
+	margin-left: 550px;
+	margin-top:25px;
+	height: 100px;
+	width: 100px;
+	background:url("./images/FrogSprite.png") top left no-repeat;
+}
+/*sprite animation when mouse hovers over frog*/
+#bridge_block4:hover{background-position: 0px -100px;}
+
+div#bridge_block5{
+	position: absolute;
+	margin-left: 700px;
+	margin-top:25px;
+	height: 100px;
+	width: 100px;
+	background:url("./images/FrogSprite.png") top left no-repeat;
+}
+/*sprite animation when mouse hovers over frog*/
+#bridge_block5:hover{background-position: 0px -100px;}
+
+div#bridge_block6{
+	position: absolute;
+	margin-left: 850px;
+	margin-top:25px;
+	height: 100px;
+	width: 100px;
+	background:url("./images/FrogSprite.png") top left no-repeat;
+}
+/*sprite animation when mouse hovers over frog*/
+#bridge_block6:hover{background-position: 0px -100px;}
+
+div#bridge_block7{
+	position: absolute;
+	margin-left: 1000px;
+	margin-top:25px;
+	height: 100px;
+	width: 200px;
+	background:url("./images/LastFrogSprite.png") top left no-repeat;
+}
+/*sprite animation when mouse hovers over frog*/
+#bridge_block7:hover{background-position: 0px -100px;}
+/*Bottom water image and its atributes*/
+div#bottomwater {
+	background-image: url("./images/BottomWater.png");
+	height: 150px;
+	width: 1000px;
+	background-size: cover;
+	margin:auto;
+}
+div#bottomwater1 img{
+	position: relative;
+	top: 25px;
+}
+/*bottom lily pad attributes.*/
+img#WaterItem2 {
+	left: 600px;
+	/* we can move the image around changing attributes in this block*/
+}
+/*Grass image and attributes.*/
+div#grass {
+	height:150px;
+	width:1080px;
+	background-image: url("./images/Grass.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	margin:auto;
+}
+/*bush positions.*/
+img#bush1{
+	position: relative;
+	top:25px;
+	left: 60px;
+
+}
+
+img#bush2{
+	position: relative;
+	top:25px;
+	left: 360px;
+}
+
+img#bush3{
+	position: relative;
+	top:25px;
+	left: 700px;
+	/*As many as you want can be put in these tags. All positioned in these blocks */
+}
+/*This controls the clickable frog link*/
+.NextPage:link{ 
+  color: white;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;}
