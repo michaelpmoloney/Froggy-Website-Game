@@ -21,4 +21,4 @@ A frog on a bridge that, when clicked on, hops across to the other side. The gam
 
 
 Screenshot of website with Frog's trajectory.(on the actual website the frog is only shown on one square at a time. Also, there is a finish line flag when the frog reaches the end of the bridge)
-![alt text](https://raw.githubusercontent.com/michaelpmoloney/Froggy-Website-Game/master/Website_Screenshot.jpg)
+![alt text](https://raw.githubusercontent.com/michaelpmoloney/Froggy-Website-Game/master/Website_Screenshot2.jpg)
